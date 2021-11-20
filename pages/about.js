@@ -1,13 +1,9 @@
-import React from 'react'
-import Head from 'next/head'
+import Meta from "../components/meta"
 
 const About = () =>{
     return(
         <div>
-            <Head>
-                <title>About</title>
-                <meta name="description" content="nextjs app practice"/>
-            </Head>
+            <Meta title="about" />
             <h1>About</h1>
         </div>
     )

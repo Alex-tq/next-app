@@ -1,5 +1,5 @@
 import { server } from '../config'
-import Head from 'next/head'
+
 import ArticleList from '../components/ArticleList'
 
 
@@ -8,10 +8,7 @@ export default function Home({articles}) {
  
   return (
     <div>
-      <Head>
-        <title>Next App Home</title>
-        <meta name="description" content="nextjs app practice"/>
-      </Head>
+      
       <ArticleList articles={articles}/>
     </div>
   )
